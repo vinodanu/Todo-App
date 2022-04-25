@@ -1,7 +1,7 @@
 const { Schema, model } = require("mongoose")
 
 const todoSchema = new Schema({
-    label : String,
+    title : String,
     status : Boolean
 })
 
